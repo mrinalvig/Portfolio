@@ -1,0 +1,48 @@
+#introBox {
+    position: absolute;
+    margin: auto;
+    top: 30%; bottom: 0; left: 0; right: 0;
+    transition: .5s;
+  }
+
+  #introLine1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgba(37, 73, 139, 0.897);
+    font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  }
+
+  #introLine2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+    color: rgba(37, 73, 139, 0.897);
+  }
+
+  #checkWork {
+    text-align: center;
+    font-size: 20px;
+    font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+    color: rgba(37, 73, 139, 0.897);
+  }
+
+  #particles{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+    position: fixed;
+  }
+
+  #arrow{
+    background-repeat: no-repeat;
+    height: 5vh;
+    width: 3vw;
+    position: relative;
+    transition: .5s;
+    transform: rotate(90deg);
+    opacity: .7;
+  }
+  #arrow:hover{
+    transform: rotate(0deg);
+    transition: .5s;
+  }

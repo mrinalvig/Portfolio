@@ -1,0 +1,25 @@
+#navBar{
+    width: 100%;
+    height: 8vh;
+    background-color: rgba(37, 73, 139, 0.95);
+    position: fixed;
+    top: -70vh;
+    z-index: 2;
+    transition: 1s;
+    -webkit-animation: fall;
+    animation: fall;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+}
+
+@-webkit-keyframes fall {
+    100% {top: 0;}
+}
+
+@keyframes fall {
+    100% {top: 0;}
+}
