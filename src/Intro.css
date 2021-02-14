@@ -1,0 +1,126 @@
+#intro {
+    position: absolute;
+    left: 1500px;
+    -webkit-animation: slide 0.4s forwards;
+    -webkit-animation-delay: 0s;
+    animation: slide 0.4s forwards;
+    animation-delay: 0s;
+    transition: .5s;
+    width: auto;
+    min-width: 1000px;
+    height: auto;
+  }
+
+  @-webkit-keyframes slide {
+    100% { left: 0; }
+  }
+
+  @keyframes slide {
+    100% { left: 0; }
+  }
+
+#previewContainer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 20vh; bottom: 0; left: 7vw; right: 0;
+}
+
+#descriptionContainer{
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 21vh; bottom: 0; left: 7vw; right: 0;
+}
+
+#preview1 {
+    height: 27vh;
+    width: 25vw;
+    border: 2px solid white;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.253);
+    z-index: 2;
+    margin-right: 5vw;
+}
+
+#description1{
+  height: 27vh;
+  width: 25vw;
+  position: relative;
+  background-color: rgba(43, 58, 81, 0.90);
+  z-index: 2;
+  margin-right: 5vw;
+  /* border:  1px solid white; */
+}
+
+#preview2 {
+  height: 27vh;
+  width: 25vw;
+  border: 2px solid white;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.253);
+  z-index: 2;
+  margin-right: 5vw;
+}
+
+#preview3 {
+  height: 27vh;
+  width: 25vw;
+  border: 2px solid white;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.253);
+  z-index: 2;
+  margin-right: 5vw;
+}
+
+#introHeader{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+    position: relative;
+    top: 11vh;
+    left: 4vw;
+    font-weight: 700;
+    z-index: 2;
+    background-color: rgba(43, 58, 81, 0.90);
+    width: auto;
+    margin: auto;
+}
+
+#githubLogo{
+  height: 5vh;
+  width: auto;
+  cursor: pointer;
+}
+
+#github1{
+  font-size: 1.5vh;
+  position: relative;
+  left:1vw;
+  top: -3.5vh;
+  color: white;
+  text-align: center;
+}
+
+#github2{
+  font-size: 1.5vh;
+  position: relative;
+  left:-1vw;
+  top: -3.5vh;
+  color: white;
+  text-align: center;
+}
+
+#paragraph1{
+  text-align: center;
+  color: white;
+  font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+  font-weight: bolder;
+  font-size: 1.7vh;
+  top: -3vh;
+  position: relative;
+  left: .5vw;
+}

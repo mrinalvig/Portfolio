@@ -34,17 +34,17 @@ class App extends React.Component {
                   }
                 },
                 color: {
-                  value: "#000000"
+                  value: "#ffffff"
                 },
                 line_linked: {
-                  color: "#000000",
-                  width: 1
+                  color: "#ffffff",
+                  width: .75
                 },
                 size: {
-                  value: 3
+                  value: 4
                 },
                 move: {
-                  speed: 1.5
+                  speed: 1.7
                 }
               },
             }}
