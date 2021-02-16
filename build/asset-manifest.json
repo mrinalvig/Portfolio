@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d693b1f3.chunk.css",
+    "main.js": "/static/js/main.74fbd899.chunk.js",
+    "main.js.map": "/static/js/main.74fbd899.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a2e5e77b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a2e5e77b.js.map",
+    "static/js/2.c576d693.chunk.js": "/static/js/2.c576d693.chunk.js",
+    "static/js/2.c576d693.chunk.js.map": "/static/js/2.c576d693.chunk.js.map",
+    "static/js/3.81045345.chunk.js": "/static/js/3.81045345.chunk.js",
+    "static/js/3.81045345.chunk.js.map": "/static/js/3.81045345.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d693b1f3.chunk.css.map": "/static/css/main.d693b1f3.chunk.css.map",
+    "static/js/2.c576d693.chunk.js.LICENSE.txt": "/static/js/2.c576d693.chunk.js.LICENSE.txt",
+    "static/media/Resume.d421fabd.pdf": "/static/media/Resume.d421fabd.pdf",
+    "static/media/arrow.e81c52fa.png": "/static/media/arrow.e81c52fa.png",
+    "static/media/email.1b82ca4b.png": "/static/media/email.1b82ca4b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2e5e77b.js",
+    "static/js/2.c576d693.chunk.js",
+    "static/css/main.d693b1f3.chunk.css",
+    "static/js/main.74fbd899.chunk.js"
+  ]
+}
