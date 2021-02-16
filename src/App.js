@@ -5,10 +5,13 @@ import {
   Switch,
   Route,
 } from 'react-router-dom';
-import ReactCSSTransitionGroup from 'react-transition-group';
 import Home from './Home.js';
 import Intro from './Intro.js';
 import Particles from 'react-particles-js';
+import Resume from './Resume.js';
+import Skills from './Skills.js';
+import NavBar from './NavBar.js';
+import Game from './Game.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -51,7 +54,11 @@ class App extends React.Component {
           />
         </div>
         <Router>
+          <NavBar />
           <Switch>
+            <Route path="/game" component={Game} />
+            <Route path="/skills" component={Skills} />
+            <Route path="/resume" component={Resume} />
             <Route path="/intro" component={Intro} />
             <Route exact path="/" component={Home} />
           </Switch>

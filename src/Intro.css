@@ -24,7 +24,7 @@
     position: relative;
     width: 100%;
     height: auto;
-    top: 20vh; bottom: 0; left: 7vw; right: 0;
+    top: 23vh; bottom: 0; left: 7vw; right: 0;
 }
 
 #descriptionContainer{
@@ -32,7 +32,7 @@
   position: relative;
   width: 100%;
   height: auto;
-  top: 21vh; bottom: 0; left: 7vw; right: 0;
+  top: 28vh; bottom: 0; left: 7vw; right: 0;
 }
 
 #preview1 {
@@ -81,7 +81,7 @@
     color: white;
     font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
     position: relative;
-    top: 11vh;
+    top: 14vh;
     left: 4vw;
     font-weight: 700;
     z-index: 2;
@@ -108,7 +108,7 @@
 #github2{
   font-size: 1.5vh;
   position: relative;
-  left:-1vw;
+  left:1vw;
   top: -3.5vh;
   color: white;
   text-align: center;

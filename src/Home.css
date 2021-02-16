@@ -133,3 +133,20 @@
     width: auto;
     transition: .2s;
   }
+
+  #email{
+    top: 1vh;
+    left: 2vw;
+    margin: auto;
+    position: relative;
+    height: 6vh;
+    width: auto;
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+    transition: .2s;
+  }
+  #email:hover{
+    height: 7vh;
+    width: auto;
+    transition: .2s;
+  }

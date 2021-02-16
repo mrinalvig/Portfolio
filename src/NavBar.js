@@ -21,8 +21,14 @@ class NavBar extends React.Component {
             <Link id="applicationsLink" to="/intro">
               <button id="applications" >APPLICATIONS</button>
             </Link>
-            <Link id="resumeLink" to="/">
+            <Link id="resumeLink" to="/resume">
               <button id="resume" >RESUME</button>
+            </Link>
+            <Link id="skillsLink" to="/skills">
+              <button id="skills">SKILLS</button>
+            </Link>
+            <Link id="skillsLink" to="/game">
+              <button id="skills">GAME</button>
             </Link>
           </div>
         </div>

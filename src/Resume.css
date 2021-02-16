@@ -1,0 +1,40 @@
+#resumePage {
+    position: absolute;
+    left: 1500px;
+    -webkit-animation: slide 0.4s forwards;
+    -webkit-animation-delay: 0s;
+    animation: slide 0.4s forwards;
+    animation-delay: 0s;
+    transition: .5s;
+    width: auto;
+    min-width: 1000px;
+    height: auto;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+#resumeImage{
+    margin: auto;
+    display:block;
+    height: 100vh;
+    width: auto;
+    left: 30vw;
+    top: 20vh;
+    position: absolute;
+    cursor: pointer;
+    box-shadow: 1.2vw 3vw 9px 7px rgba(0, 0, 0, 0.39);
+}
+
+#thing{
+    position: relative;
+    height: 1vh;
+    width: auto;
+    top: 150vh;
+    /* border: 1px solid white; */
+}

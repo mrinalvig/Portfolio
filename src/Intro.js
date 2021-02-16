@@ -17,7 +17,7 @@ class Intro extends React.Component {
   render() {
     return(
       <div id="intro">
-        <NavBar />
+        {/* <NavBar /> */}
         <h1 id="introHeader" >Check out some of my projects!</h1>
         <div id="previewContainer" >
           <div id="preview1">
@@ -52,7 +52,7 @@ class Intro extends React.Component {
             {/* <td onClick={()=> window.open("https://github.com/know-it-alls/KnowItAll", "_blank")}>text</td> */}
             <h2  style={{cursor:'pointer'}} onClick={()=> window.open("https://github.com/Dumpling-Squad", "_blank")} id="github2">https://github.com/Dumpling-Squad </h2>
             <p id="paragraph1">
-              On this project, my team and I replicated the product page of Glossier.com. It was important for us to make sure that our site was indistinguishable from the original. Not only does the site look the same, but it functions the same as well. By utilizing RESTful API endpoints and recreating the same UI, we were able to replicate the functionality. 
+              On this project, my team and I replicated the product page of Glossier.com. It was important for us to make sure that our site was indistinguishable from the original. Not only does the site look the same, but it functions the same as well. By utilizing RESTful API endpoints and recreating the same UI, we were able to replicate the functionality.
             </p>
           </div>
         </div>
