@@ -55,7 +55,7 @@
     font-size: 3.2vh;
     font-weight: 600;
     letter-spacing: 10px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: white;
     text-align: center;
   }
@@ -76,6 +76,7 @@
     transform: rotate(90deg);
     opacity: .7;
     filter: brightness(0) invert(1);
+    top: 3vh;
   }
   #arrow:hover{
     transform: rotate(0deg);
@@ -90,6 +91,16 @@
     left: 22.4vw;
   }
 
+  #bar2{
+    border: 1px solid white;
+    height: .001px;
+    width: 25vw;
+    position: relative;
+    left: 36.9vw;
+    top: -4vh;
+  }
+
+
   #myInfo{
     display: flex;
     height: 10vh;
@@ -98,6 +109,7 @@
     margin: auto;
     position: relative;
     left: -2vw;
+    top: 1vh;
   }
 
   #linkedin{
@@ -149,4 +161,15 @@
     height: 7vh;
     width: auto;
     transition: .2s;
+  }
+
+  #about {
+    font-size: 1.75vh;
+    font-weight: normal;
+    width: 50vw;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    top: 15vh;
+    background-color: rgba(43, 58, 81, 0.60);
   }

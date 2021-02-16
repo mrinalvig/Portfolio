@@ -17,6 +17,7 @@ class Game extends React.Component {
   }
 
   keyClick(e) {
+    console.log(e.keyCode);
     if(e.keyCode === 39) {
         this.setState({
             standingY: -(192 + 384)
@@ -72,10 +73,26 @@ class Game extends React.Component {
             standingX: this.state.standingX -96
         })
     }
+
+    else if(e.keyCode === 32) {
+        this.setState({
+            standingY: 0
+        })
+        setInterval(() => {
+            if(this.state.standingX === -768) {
+                this.setState({
+                    standingX: 0
+                })
+            }
+            this.setState({
+                standingX: this.state.standingX -96
+            })
+        }, 50);
+    }
   }
 
   keyUp(e){
-    console.log('hello');
+    console.log(e.keyCode);
     this.setState({
         standingX: 0,
         standingY: -384
@@ -86,7 +103,7 @@ class Game extends React.Component {
     return(
       <div id="gameWindow">
         <div id="innerWindow">
-            <div
+            {/* <div
                 style={{
                     display: "inline-block",
                     height: "96px",
@@ -100,7 +117,18 @@ class Game extends React.Component {
                 }}
                 onKeyDown={(e) => this.keyClick(e)}
                 onKeyUp={(e) => this.keyUp(e)}
-            />
+            /> */}
+            <div>
+            <h2 id="tryItHeader" >TRY IT OUT!
+                <ol id="controlls">
+                    <li>SPACEBAR - ATTACK</li>
+                    <li>ARROW KEYS - MOVE LINK</li>
+                    <li>Z - USE ITEM</li>
+                    <li>CLICK MOUSE ON ITEM ICON - CHANGE ITEM</li>
+                </ol>
+            </h2>
+                <iframe id="gamePlay" src="https://mrinals8bitzeldagame.netlify.app" />
+            </div>
         </div>
       </div>
     );

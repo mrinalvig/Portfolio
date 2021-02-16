@@ -36,6 +36,7 @@ class Home extends React.Component {
             <Link to="/intro">
                 <img id ='arrow' src={arrow} />
             </Link>
+            {/* <h2 id="about">I am a Full-Stack Developer who enjoys functionality and design, currently seeking my next professional opportunity. Technology has always had a grasp on my heart, so I'm always tinkering with new technologies. I love to program and create fun UI's for people to enjoy!</h2> */}
           </div>
         </div>
       </div>
